@@ -10,6 +10,16 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "fed/ewma-module-installer-plugin": "~0.0.1"
+        "fed/ewma-module-installer-plugin": "~0.0.1",
+        "fed/ss-components-bg": "*",
+        "fed/ss-components-cats": "*",
+        "fed/ss-components-fancybox": "*",
+        "fed/ss-components-images": "*",
+        "fed/ss-components-mce": "*",
+        "fed/ss-components-node": "*",
+        "fed/ss-components-pages-publisher": "*",
+        "fed/ss-components-pages-sorter": "*",
+        "fed/ss-components-products": "~0.6",
+        "fed/ss-components-youtube": "*"
     }
 }
