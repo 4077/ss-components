@@ -1,0 +1,79 @@
+// head {
+@__nodeId__: ~"ss_components_cpForm__main";
+// }
+
+.@{__nodeId__} {
+
+    > .field {
+        padding: 5px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        //border-top: 1px solid #ffffff;
+        border-bottom: 1px dashed #dedede;
+
+        > .label {
+            padding: 3px 0;
+            font-size: 13px;
+            font-weight: bold;
+            white-space: nowrap;
+            color: #8e8e8e;
+
+            transition: all .05s;
+        }
+
+        > .controls {
+            display: flex;
+            align-items: center;
+
+            > .control {
+                margin-left: 5px;
+            }
+        }
+
+        &.l2 {
+
+            > .label {
+                margin-left: 20px;
+            }
+
+            > .control {
+
+            }
+        }
+
+        &.l3 {
+
+            > .label {
+                margin-left: 40px;
+            }
+
+            > .control {
+
+            }
+        }
+
+        &.l4 {
+
+            > .label {
+                margin-left: 60px;
+            }
+
+            > .control {
+
+            }
+        }
+
+        &:hover {
+            //border-top: 1px solid #f0f0f0;
+            border-bottom: 1px solid #e0e0e0;
+
+            background: linear-gradient(#f9f9f9, #fbfbfb);
+
+            > .label {
+                color: #202020;
+            }
+        }
+    }
+}
